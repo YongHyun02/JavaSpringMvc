@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+  
+<tiles-definitions>
+	<definition name="intro" template="/WEB-INF/views/main/home.jsp">
+		<put-attribute name="title" value="레고" />
+		<!-- <put-attribute name="header" value="/WEB-INF/views/client/template/header.jsp" />
+		<put-attribute name="sidemenubar" value="/WEB-INF/views/client/template/sidemenubar.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/client/template/footer.jsp"/> -->	
+	</definition>
+	
+	<!-- <definition name="noticeBoard/*" extends="intro">
+		<put-attribute name="title" value="동네북 공지사항" />
+		<put-attribute name="body" value="/WEB-INF/views/client/noticeBoard/{1}.jsp" />
+		
+	</definition>
+	
+	<definition name="eventBoard/*" extends="intro">
+		<put-attribute name="title" value="동네북 이벤트게시판" />
+		<put-attribute name="body" value="/WEB-INF/views/client/eventBoard/{1}.jsp" />
+	</definition>
+	
+	<definition name="freeBoard/*" extends="intro">
+		<put-attribute name="title" value="동네북 회원게시판" />
+		<put-attribute name="body" value="/WEB-INF/views/client/freeBoard/{1}.jsp" />
+	</definition>
+	
+	<definition name="suggestionBoard/*" extends="intro">
+		<put-attribute name="title" value="동네북 건의게시판" />
+		<put-attribute name="body" value="/WEB-INF/views/client/suggestionBoard/{1}.jsp" />
+	</definition>
+	
+	<definition name="faqBoard/*" extends="intro">
+		<put-attribute name="title" value="동네북 faq게시판" />
+		<put-attribute name="body" value="/WEB-INF/views/client/eventBoard/{1}.jsp" />
+	</definition>
+	
+	<definition name="customerService/*" extends="intro">
+		<put-attribute name="title" value="동네북 이벤트게시판" />
+		<put-attribute name="body" value="/WEB-INF/views/client/customerService/{1}.jsp" />
+	</definition> -->
+		
+</tiles-definitions>
